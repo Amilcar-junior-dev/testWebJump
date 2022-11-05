@@ -32,6 +32,7 @@ const ContextProvider = ({
         setLoading(false)
     }
 
+
     const reorderArray = async (response) => {
         if (pokemonValue.length > 0) {
             const array = [...pokemonValue]
@@ -57,7 +58,7 @@ const ContextProvider = ({
         }
     }
 
-    const SelectedPokemon = (id?: string) => {
+    const SelectedPokemon = (id?:any) => {
         setPokemon(pokemonValue[id])
     }
 

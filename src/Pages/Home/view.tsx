@@ -26,7 +26,7 @@ const Home: React.FC<PropsHome> = ({
     
     const { height } = Dimensions.get("window")
   
-    const navigation = useNavigation();
+    const navigation = useNavigation<any>();
 
     return (
         <>
